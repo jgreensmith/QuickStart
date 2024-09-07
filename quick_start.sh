@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the directory where the Bash scripts are located
-SCRIPTS_DIR="${HOME}/QuickStart"
+SCRIPTS_DIR="${HOME}/QuickStart/lib"
 
 # Check if the directory exists
 if [ ! -d "$SCRIPTS_DIR" ]; then
@@ -34,4 +34,4 @@ for script in "$SCRIPTS_DIR"/*.sh; do
     echo "----------------------------"
 done
 
-echo "All scripts executed."
+echo "All scripts executed. restart terminal"
