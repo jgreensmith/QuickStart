@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the directory where the Bash scripts are located
-SCRIPTS_DIR="~/QuickStart"
+SCRIPTS_DIR="${HOME}/QuickStart"
 
 # Check if the directory exists
 if [ ! -d "$SCRIPTS_DIR" ]; then
