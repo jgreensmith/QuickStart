@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the path to the tools list file
-TOOLS_LIST="~/QuickStart/lib/tool_list.txt"
+TOOLS_LIST="~/QuickStart/tool_list.txt"
 
 # Check if the tools list file exists
 if [ ! -f "$TOOLS_LIST" ]; then
